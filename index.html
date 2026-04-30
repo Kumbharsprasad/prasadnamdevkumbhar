@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prasad Kumbhar | AI/ML Engineer Portfolio">
+    <title>Prasad Kumbhar | AI/ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="logo">Prasad Kumbhar</div>
+        <div class="nav-links">
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#work" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#live-projects" class="nav-link">Live</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="reveal-text">Intelligence is the<br>ultimate sophistication.</h1>
+                <p class="fade-in-up delay-1">I am an AI/ML Engineer crafting scalable, intelligent systems, RAG pipelines, and agentic architectures.</p>
+                <div class="fade-in-up delay-2">
+                    <a href="#experience" class="btn primary-btn">Explore Profile</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in delay-3">
+                <img src="assets/profile_prasad.jpeg" alt="Profile Silhouette" class="hero-image">
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2 class="section-title fade-in-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in-up delay-1">
+                    <div class="timeline-meta">Oct 2025 – Jan 2026 | Remote</div>
+                    <h3>Encrypta IN — Research & Development Intern</h3>
+                    <ul>
+                        <li>Architected a conversational FAQ chatbot using a RAG pipeline (LangChain + FAISS), achieving 90% accuracy across multi-source queries and processing 100+ queries/minute; deployed on AWS EC2 with S3.</li>
+                        <li>Engineered a high-performance FastAPI backend with async pipelines and WebSocket-based real-time communication, lowering request time by 65% and supporting 500+ concurrent users.</li>
+                        <li>Optimized retrieval pipelines (chunking, embeddings, reranking), improving answer relevance by 40% and increasing factual consistency.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item fade-in-up delay-2">
+                    <div class="timeline-meta">Aug 2025 – Oct 2025 | Remote</div>
+                    <h3>Infosys Springboard — AI/ML Intern</h3>
+                    <ul>
+                        <li>Built a computer vision system for PCB defect detection and multiclass classification, recorded 94% classification accuracy spanning 6 categories.</li>
+                        <li>Developed a scalable preprocessing pipeline for 10,000+ images, applying augmentation and normalization using TensorFlow.</li>
+                        <li>Designed and deployed RESTful inference APIs (Flask) enabling real-time predictions with reduced latency by 60%.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <h2 class="section-title fade-in-up">Key Projects</h2>
+            <div class="project-list">
+                <div class="project-card fade-in-up delay-1">
+                    <h3>Text-to-SQL Conversational Agent</h3>
+                    <p>Designed a stateful LangGraph pipeline with conditional edges for schema extraction, SQL generation, execution, and self-healing retry on query failure. Built a natural language interface over PostgreSQL enabling non-technical users to query relational data, reducing failure rate by 80% via autonomous feedback loops.</p>
+                    <div class="tags">
+                        <span>LangGraph</span><span>PostgreSQL</span><span>Python</span><span>Agentic AI</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-2">
+                    <h3>Financial Advisory Bot (RAG + GenAI)</h3>
+                    <p>Developed a personalized financial advisory assistant using RAG, handling 100+ user queries per session with context-aware responses. Integrated Groq API, user profiling, and vector retrieval pipelines, improving recommendation relevance by 40% and achieving 92.1% accuracy in intent classification.</p>
+                    <div class="tags">
+                        <span>RAG</span><span>GenAI</span><span>Groq API</span><span>FAISS</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-3">
+                    <h3>Swara – Misarticulation Detection</h3>
+                    <p>Built an ASR + NLP pipeline to detect speech misarticulation in children aged 2–12 years. Operationalized the system using Flask and Azure with OpenCV-based speech visualization, attaining 88.6% word-level prediction accuracy. (Copyright Registered: SW-18865/2024)</p>
+                    <div class="tags">
+                        <span>ASR</span><span>NLP</span><span>Azure</span><span>Flask</span><span>OpenCV</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-4">
+                    <h3>Plant Disease Detection System</h3>
+                    <p>Designed a complete CNN-based image classification model to identify potato disease with 92% accuracy across 3 disease classes. Trained model on 9,000+ images using TensorFlow, applying data augmentation to handle class imbalance. Delivered the model through a Flask API custom web interface, achieving less than 1s inference time and enabling scalable, real-time disease detection for field level usage.</p>
+                    <div class="tags">
+                        <span>CNN</span><span>TensorFlow</span><span>Flask</span><span>Computer Vision</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-5">
+                    <h3>Open Journal System (SaaS)</h3>
+                    <p>Developed a production-ready SaaS application for academic publishing. Architected a robust full-stack solution featuring role-based authentication (JWT) for authors, editors, and reviewers. Built custom dashboards and an enhanced peer-review submission workflow, backed by PostgreSQL and Drizzle ORM for reliable data persistence.</p>
+                    <div class="tags">
+                        <span>Next.js</span><span>PostgreSQL</span><span>Drizzle ORM</span><span>JWT</span><span>Full Stack</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-6">
+                    <h3>Multimodal ASD Screening Framework</h3>
+                    <p><strong>Final Year Major Project:</strong> Developed a probabilistic multimodal deep learning system for Autism Spectrum Disorder (ASD) screening. Integrated EEG, eye-tracking, and behavioral data using CNN-LSTM encoders and a Variational Autoencoder (VAE) for 64-dimensional shared latent representations. Incorporated SHAP and Grad-CAM to provide clinically interpretable explanations for predictions.</p>
+                    <div class="tags">
+                        <span>CNN-LSTM</span><span>VAE</span><span>SHAP</span><span>Grad-CAM</span><span>Multimodal AI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title fade-in-up">Technical Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in-up delay-1">
+                    <h3>AI / ML & Domains</h3>
+                    <p>Machine Learning, Deep Learning, Computer Vision, NLP, RAG Pipelines, LLM Integration, Prompt Engineering, Agent Orchestration</p>
+                </div>
+                <div class="skill-category fade-in-up delay-2">
+                    <h3>Frameworks & Libraries</h3>
+                    <p>PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, FAISS, Pinecone, Scikit-learn, NumPy, Pandas, OpenCV</p>
+                </div>
+                <div class="skill-category fade-in-up delay-3">
+                    <h3>Cloud & APIs</h3>
+                    <p>AWS (EC2, S3, Lambda, SageMaker), Docker, Azure, FastAPI, Flask, REST, WebSocket</p>
+                </div>
+                <div class="skill-category fade-in-up delay-4">
+                    <h3>Languages & Tools</h3>
+                    <p>Python, SQL, JS, HTML/CSS, PostgreSQL, Power BI, Next.js, Git, Groq API</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="live-projects" id="live-projects">
+            <h2 class="section-title fade-in-up">Live Projects</h2>
+            <div class="project-list" style="grid-template-columns: 1fr;">
+                <a href="https://48-mah-bn-ncc-dhule.vercel.app/" target="_blank" class="project-card fade-in-up delay-1" style="display: block;">
+                    <h3>48 Mah Battalion NCC Dhule ↗</h3>
+                    <p>Recognized as the official website for the 48 Maharashtra Battalion NCC Dhule. Architected and deployed a highly scalable, fast, and accessible digital presence for the battalion.</p>
+                    <div class="tags" style="margin-top: 1.5rem;">
+                        <span>Next.Js</span><span>Full Stack</span><span>Vercel</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title fade-in-up">Let's Connect</h2>
+            <p class="fade-in-up delay-1">Seeking roles to deliver scalable, intelligent solutions.</p>
+            <a href="mailto:kumbharprasad23@gmail.com" class="contact-email fade-in-up delay-2">kumbharprasad23@gmail.com</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Prasad Kumbhar. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/prasad-kumbhar23/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/prasadk2304" target="_blank">GitHub</a>
+            <a href="mailto:kumbharprasad23@gmail.com">Email</a>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
