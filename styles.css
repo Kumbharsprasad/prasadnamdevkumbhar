@@ -114,6 +114,11 @@ section:last-of-type { border-bottom: none; }
 .skill-category h3 { font-size: 1.5rem; margin-bottom: 1.5rem; font-family: var(--font-body); font-weight: 400; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; }
 .skill-category p { color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; }
 
+/* Certifications */
+.cert-list { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; color: var(--text-secondary); }
+.cert-list li { font-size: 1.1rem; }
+.cert-list a { color: var(--accent); border-bottom: 1px dotted var(--border-color); padding-left: 0.25rem; }
+
 /* Contact */
 .contact { text-align: center; padding: 12rem 10%; border-bottom: none; }
 .contact p { font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 2rem; }
