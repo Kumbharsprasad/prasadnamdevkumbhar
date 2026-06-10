@@ -132,6 +132,11 @@ section:last-of-type { border-bottom: none; }
 .social-links a { text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem; transition: color 0.3s ease; }
 .social-links a:hover { color: var(--accent); }
 
+/* Footer resume button */
+.footer .btn { padding: 0.6rem 1rem; font-size: 0.85rem; border-radius: 6px; }
+.resume-btn { margin-left: 1rem; background: var(--accent); color: var(--bg-color); border: none; }
+.resume-btn:hover { opacity: 0.9; }
+
 /* Animations */
 .fade-in { opacity: 0; transition: opacity 1s ease-out; }
 .fade-in.visible { opacity: 1; }
